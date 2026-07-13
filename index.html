@@ -11,6 +11,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
   
+  <!-- Preload critical LCP assets -->
+  <link rel="preload" href="facility_hero_bg.png" as="image" fetchpriority="high" />
+  
   <style>
     *, *::before, *::after {
       box-sizing: border-box;
@@ -1424,7 +1427,7 @@
   <!-- ─── NAVBAR ─── -->
   <nav class="navbar" id="navbar" aria-label="Main navigation">
     <a href="index.html" class="nav-logo" id="home-logo">
-      <img src="FM_logo.jpg" alt="One Axis Enterprises Logo" class="logo-img" />
+      <img src="FM_logo.jpg" alt="One Axis Enterprises Logo" class="logo-img" width="168" height="48" />
     </a>
     
     <!-- Mobile toggle button -->
@@ -1977,7 +1980,7 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <div class="footer-logo-wrap">
-            <img src="FM_logo.jpg" alt="One Axis Enterprises Logo" class="logo-img" />
+            <img src="FM_logo.jpg" alt="One Axis Enterprises Logo" class="logo-img" width="140" height="40" />
           </div>
           <p class="footer-tagline">Trusted facility management services delivering clean, safe, and efficiently run environments in Kolar and Bangalore.</p>
         </div>
